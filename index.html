@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>The Dev News</title>
+</head>
+<body>
+    <header>
+        <div class="container-title">
+            <h1 class="title1">The Dev News</h1>
+        </div>
+    </header>
+    <main id="element-container">
+    <!--POSTs-->
+    <section id="post-frame">
+        <div class="container-banner">
+            <img id="banner-image" src="imagens/banner-articicle.jpg" alt="">
+            <div class="text-banner">
+                <p>opinião</p>
+                <h1>Como é ser um desenvolvedor</h1>
+                <p><b>By</b> Fabio Tetsuo</p>
+            </div>    
+        </div>
+        <!--TÍTULO-->
+        <div id="content-body" class="post">
+            <h2>Posts mais recentes</h2>
+            <a href="">Ver todos</a>
+        </div>
+        <!--QUADRO DE POST-->
+        <section id="grid-container">
+            <div class="card">
+                <img class="img-card" src="./imagens/card-1.svg" alt="">
+                <div class="conteudo">
+                    <h4 class="text-card">desenvolvimento</h4>
+                    <h2>Desenvolvimento mobile</h2>
+                    <p class="text-card color-tcard mrg-crd"><b class="author">By</b><span class="data"> Fabio Tetsuo</span></p>
+                    <p class="text-card color-tcard mrg-crd">Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p>
+                    <p class="color-tcard mrg-crd data">22 Agosto 2022</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="./imagens/card-3.svg" alt="">
+                <div class="conteudo">                
+                    <h4 class="text-card">saúde</h4>
+                    <h2>Balancear vida profissional e pessoal</h2>
+                    <p class="text-card color-tcard mrg-crd"><b class="author">By</b><span class="data"> Ridho Satriawan</span></p>
+                    <p class="text-card color-tcard mrg-crd">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+                    <p class="color-tcard mrg-crd data">22 Agosto 2022</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="./imagens/card-2.svg" alt="">
+                <div class="conteudo">
+                    <h4 class="text-card">desenvolvimento</h4>
+                    <h2>Configurando VSCode</h2>
+                    <p class="text-card color-tcard mrg-crd"><b class="author">By</b><span class="data"> Fabio Tetsuo</span></p>
+                    <p class="text-card color-tcard mrg-crd">Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.</p>
+                    <p class="color-tcard mrg-crd data">22 Agosto 2022</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="./imagens/card-4.svg" alt="">
+                <div class="conteudo">
+                    <h4 class="text-card">produtividade</h4>
+                    <h2>2 monitores ou 1 ultrawide?</h2>
+                    <p class="text-card color-tcard mrg-crd"><b class="author">By</b><span class="data"> Fulano da Silva</span></p>
+                    <p class="text-card color-tcard mrg-crd">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis nunc ligula donec a. Velit senectus amet nulla.</p>
+                    <p class="color-tcard mrg-crd data">22 Agosto 2022</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <aside class="side-right">
+        <div>
+            <h2 class="title-popular">Posts populares</h2>
+            <!--POSTS POPULARES-->
+            <div class="popular">
+                <img src="./imagens/post pop1.svg" alt="">
+                <div>
+                    <h3 class="sub-post">Desenvolvimento Atual</h3>
+                    <p  class="dt-subpost">22 Agosto 2022</p>
+                </div>
+            </div>
+            <div class="popular">
+                <img src="./imagens/post pop2.svg" alt="">
+                <div>
+                    <h3 class="sub-post">GitLab vs GitHub</h3>
+                    <p  class="dt-subpost">22 Agosto 2022</p>
+                </div>
+            </div>
+            <div class="popular">
+                <img src="./imagens/post pop3.svg" alt="">
+                <div>
+                    <h3 class="sub-post">Café atrapalha?</h3>
+                    <p  class="dt-subpost">22 Agosto 2022</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="title-p2">Categorias</h2>
+        </div>
+        <!--Lista das gategorias-->
+        <nav>
+            <ul id="menu-categories">
+                <li>
+                    <a href="#"><b>> saúde</b></a>
+                    <p class="cont"><b>(1)</b></p>
+                </li>
+                <li>
+                    <a href="#"><b>> desenvolvimento</b></a>
+                    <p class="cont"><b>(2)</b></p>
+                </li>
+                <li>
+                    <a chref="#"><b>> produtividade</b></a>
+                    <p class="cont"><b>(2)</b></p>
+                </li>
+                <li>
+                    <a href="#"><b>> opinião</b></a>
+                    <p class="cont">,<b>(1)</b></p>
+                </li>
+        </ul>
+        </nav>
+
+    </aside>
+
+    </main>
+    
+    <footer>
+        <p class="footer">Copyright@The Dev News</p>
+    </footer>
+    
+</body>
+</html>
